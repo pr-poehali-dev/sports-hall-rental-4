@@ -575,7 +575,7 @@ export default function Index() {
       <footer className="bg-sport-dark border-t border-sport-green/20 py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <span className="font-oswald text-2xl font-bold text-white">СПОРТ<span className="text-sport-green">АРЕНА</span></span>
+            <span className="font-oswald text-2xl font-bold text-white">КОМСО<span className="text-sport-green">МОЛЕЦ</span></span>
             <div className="flex gap-6">
               {navLinks.map((link) => (
                 <a key={link.href} href={link.href} className="text-gray-500 hover:text-sport-green text-sm transition-colors">
@@ -583,7 +583,7 @@ export default function Index() {
                 </a>
               ))}
             </div>
-            <p className="text-gray-600 text-sm">© 2024 СпортАрена</p>
+            <p className="text-gray-600 text-sm">© 2024 Комсомолец</p>
           </div>
         </div>
       </footer>
